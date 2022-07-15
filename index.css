@@ -2,19 +2,72 @@
 * {
     box-sizing:border-box;
     margin:auto;
+    padding-inline-start: 0px;
 }
+
 
 body {
     text-align: center;
     
 }
 
-h1 {
+h1, {
     font-size: 50px;
     margin-bottom:25px;
 }
 
-ul {
+#mainSiteDir {
     list-style: none;
+    font-size: 30px;   
+}
+
+ul, .tdl{
     font-size: 30px;
+    list-style: none;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.tdl li:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.searchbar input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px; 
+    text-align: center;
+    width: 75%;
+    
+}
+
+.chess-container {
+    width:850px;
+    height:850px;
+    margin-top:20px;
+
+}
+
+.chess-container div:alternate {
+    background-color: lightblue;
+}
+
+
+.blue {
+    width: 100px;
+    height:100px;
+    float:left;
+    font-size:60px;
+    background-color: lightblue;
+    border: 1px rgb(103, 194, 225);
+}
+
+.white {
+    width: 100px;
+    height:100px;
+    float:left;
+    font-size:60px;
+    background-color: rgb(251, 246, 241);
+    border: 1px lightblue;
 }
